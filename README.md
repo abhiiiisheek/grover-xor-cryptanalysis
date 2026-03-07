@@ -78,7 +78,7 @@ Tested with:
 Run the Grover-based key recovery attack using:
 
 ```
-python3 -m experiments.run_nbit 6 6
+python3 -m experiments.run_nbit 6 5
 ```
 
 Where:
@@ -86,7 +86,7 @@ Where:
 | Argument | Description                 |
 | -------- | --------------------------- |
 | 6        | Key size (6-bit key space)  |
-| 6        | Number of Grover iterations |
+| 5        | Number of Grover iterations |
 
 This performs Grover search over a **6-bit key space**.
 
